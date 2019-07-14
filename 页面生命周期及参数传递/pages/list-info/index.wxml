@@ -1,0 +1,8 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+  <h1>
+    我是详情
+  </h1>
+  <p>
+    {{ no }}
+  </p>
+</view>

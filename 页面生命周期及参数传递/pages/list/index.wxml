@@ -1,0 +1,33 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+  <view class="button-box" hover-class="none" hover-stop-propagation="false">
+    <navigator class="" target="" url="../list-info/index?id=1" hover-class="navigator-hover" open-type="navigate">
+      <button data-id="1" type="primary">
+        详情一
+      </button>
+    </navigator>
+  </view>
+
+  <view class="button-box" hover-class="none" hover-stop-propagation="false">
+    <button data-id="2" bind:tap="navToInfo" type="primary">
+      详情二
+    </button>
+  </view>
+
+  <view class="button-box" hover-class="none" hover-stop-propagation="false">
+    <button data-id="3" bind:tap="navToInfo" type="primary">
+      详情三
+    </button>
+  </view>
+
+  <view class="button-box" hover-class="none" hover-stop-propagation="false">
+    <button data-id="4" bind:tap="navToInfo" type="primary">
+      详情四
+    </button>
+  </view>
+
+  <view class="button-box" hover-class="none" hover-stop-propagation="false">
+    <button data-id="5" bind:tap="navToInfo" type="primary">
+      详情五
+    </button>
+  </view>
+</view>

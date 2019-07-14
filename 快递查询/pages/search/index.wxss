@@ -1,0 +1,25 @@
+.content {
+  padding: 30rpx;
+}
+.search_input {
+  margin-bottom: 40rpx;
+}
+.express_info_list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.express_info_list_item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20rpx;
+}
+.express_info_list_item > h1 {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+.express_info_list_item > p {
+  font-size: 22rpx;
+}

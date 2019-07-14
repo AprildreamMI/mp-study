@@ -1,0 +1,20 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+  <view class="search_input" hover-class="none" hover-stop-propagation="false">
+    <input value="{{ no }}" placeholder="请输入快递单号查询" type="text" bindinput="searchInput" />
+  </view>
+  <view class="" hover-class="none" hover-stop-propagation="false">
+    <button type="primary" bind:tap="searchButtonClick">
+      查询
+    </button>
+  </view>
+  <view class="express_info_list" hover-class="none" hover-stop-propagation="false">
+    <div wx:for="{{expressInfo.list}}" wx:key="index" class="express_info_list_item">
+      <h1>
+        {{ item.status }}
+      </h1>
+      <p>
+        {{ item.time }}
+      </p>
+    </div>
+  </view>
+</view>
